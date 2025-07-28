@@ -95,12 +95,21 @@
           "target": [
             "TargetOrders"
           ]
+        },
+        {
+          "name":"OrderDrill",
+          "pattern":"OrderDrill/{OrderId}",
+          "target": "secondView"
         }
       ],
       "targets": {
         "TargetOrders": {
           "id": "Orders",
           "name": "Orders"
+        },
+        "secondView":{
+          "id" : "orderDetail",
+          "name" : "OrderDrill"
         }
       }
     },

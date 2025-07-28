@@ -1,0 +1,6 @@
+<mvc:View controllerName="demo.ladera.expandentityui5.controller.OrderDrill"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+    <Page id="orderDetail" title="Order Detail Page" showNavButton="true" navButtonPress="onNavigationBack">
+    </Page>
+</mvc:View>

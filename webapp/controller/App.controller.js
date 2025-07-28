@@ -6,5 +6,6 @@ sap.ui.define([
   return BaseController.extend("demo.ladera.expandentityui5.controller.App", {
       onInit() {
       }
+
   });
 });
