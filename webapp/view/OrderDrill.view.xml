@@ -2,5 +2,17 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m" xmlns:f="sap.ui.layout.form">
     <Page id="orderDetail" title="Order Detail Page" showNavButton="true" navButtonPress="onNavigationBack">
+     <f:SimpleForm>
+        <f:content>
+            <Label text="Product Name"/>
+            <Input value="{productDetailModel>/ProductName}"/>
+            <Label text="Product Description"/>
+            <Input value="{productDetailModel>/ProductDescription}"/>
+            <Label text="Location"/>
+            <Input value="{productDetailModel>/Location}"/>
+            <Label text="Cost Center"/>
+            <Input value="{productDetailModel>/CostCenter}"/>
+        </f:content>
+    </f:SimpleForm>
     </Page>
 </mvc:View>
